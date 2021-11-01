@@ -14,9 +14,21 @@
 // console.log(listItems);
 
 // document.getElementByTagName
-const lis = document.getElementsByTagName("li");
+// let lis = document.getElementsByTagName("li");
 
-console.log(lis);
-console.log(lis[0]);
-lis[0].style.color = "red";
-lis[3].textContent = "Hello World";
+// console.log(lis);
+// console.log(lis[0]);
+// lis[0].style.color = "red";
+// lis[3].textContent = "Hello World";
+
+// // Convert html collection into an array
+// lis = Array.from(lis);
+
+// lis.reverse();
+
+// lis.forEach(function(li, index) {
+//   console.log(li.className);
+//   li.textContent = `${index}: hello`
+// });
+
+// console.log(lis);
