@@ -25,8 +25,30 @@ val = list.children;
 val = list.children[0];
 list.children[0].textContent = "hello";
 // Children of children
-val = list.children[3].children[0]
+val = list.children[3].children[0];
 
-val = list.firstChild
+// First child
+val = list.firstChild;
+val = list.firstElementChild;
+
+// Last child
+val = list.lastChild;
+val = list.lastElementChild;
+
+// Count child elements
+val = list.childElementCount;
+
+// Get parent node
+val = listItem.parentNode;
+val = listItem.parentElement;
+val = listItem.parentElement.parentElement;
+
+// Get next sibling
+val = listItem.nextSibling;
+val = listItem.nextElementSibling.nextElementSibling;
+
+// Get next sibling
+val = listItem.previousSibling;
+val = listItem.previousElementSibling;
 
 console.log(val);
