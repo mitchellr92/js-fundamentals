@@ -23,4 +23,28 @@ const list = document.querySelector("ul");
 lis[0].remove();
 
 // Remove child element
-list.removeChild(lis[3])
+list.removeChild(lis[3]);
+
+// Class and attr
+const firstLi = document.querySelector("li:first-child");
+const link = firstLi.children[0];
+
+let val;
+
+// Classes
+val = link.className;
+val = link.classList;
+val = link.classList[0];
+link.classList.add("test");
+link.classList.remove("test");
+val = link;
+
+// Attributes
+val = link.getAttribute("href");
+val = link.setAttribute("href", "http://google.com");
+link.setAttribute("title", "google");
+val = link.hasAttribute("title");
+link.removeAttribute("title");
+val = link;
+
+console.log(val);
