@@ -1,3 +1,10 @@
+// 
+// 
+// 
+//--------------------CLASSES--------------------
+// 
+//
+// 
 class Book {
   constructor(title, author, isbn) {
     this.title = title;
@@ -96,9 +103,13 @@ class Store {
     localStorage.setItem("books", JSON.stringify(books));
   }
 }
-
-//----------EVENT LISTENERS----------
-
+//
+//
+//
+//--------------------EVENT LISTENERS--------------------
+//
+//
+//
 // DOM load event
 document.addEventListener("DOMContentLoaded", Store.displayBooks);
 
